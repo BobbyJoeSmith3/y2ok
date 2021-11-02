@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Food</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="content">
+		<div class="lp">
+			<h1 class="logo"><a href="index.html">Y2-O-K!</a></h1>
+			<form class="language">
+				<select id="language" name="language" onchange="location = this.options[this.selectedIndex].value;">
+					<option value="index.html">Select Language</option>
+					<option value="index.html">American</option>
+					<option value="kindex.html">Korean</option>
+					<option value="lindex.html">Lakota</option>
+				</select>
+			</form>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="food.html">FOOD</a></li>
+				<li><a href="medical.html">MEDICAL</a></li>
+				<li><a href="protection.html">PROTECTION</a></li>
+				<li><a href="clothing.html">CLOTHING</a></li>
+				<li><a href="gear.html">GEAR</a></li>
+				<li><a href="entertainment.html">ENTERTAINMENT</a></li>
+				<li><a href="spiritual.html">SPIRITUAL</a></li>
+				<li><a href="other.html">OTHER</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="header">
+				<h1>Welcome to Y2-O-K!</h1>
+				<h3>Your one stop shop for the end of the world</h3>
+				<p>minutes to midnight:</p>
+				<h2 id="countdown"></h2>
+			</div>
+			<hr>
+			<table class="product-grid">
+				<tr>
+					<td style="width:20px;">1.</td>
+					<td style="width:210px;">
+						<img src="Products/Medical/robitussin.jpeg">
+						<button type="button" onclick="increaseCounter()">
+							Add to Bugout Bag
+						</button>
+						<br>
+						availability: usually ships within 48 hours
+					</td>
+					<td>
+						<b>Robitussin</b><br><br>
+						list price: <strike>$20.00</strike><br>
+						our price: $14.00<br>
+						you save: $6.00<br>
+						<p>Product Description:<br>
+						Nothin' like 'tussin to remedy every ailment.</p>
+
+					</td>
+				</tr>
+			</table>
+			<hr>
+			<table>
+				<tr>
+					<td style="width:20px;">2.</td>
+					<td style="width:210px;">
+						<img src="Products/Medical/jackdaniels.jpeg">
+						<button type="button" onclick="increaseCounter()">
+							Add to Bugout Bag
+						</button>
+						<br>
+						availability: SOLD OUT
+					</td>
+					<td>
+						<b>Jack Daniels</b><br><br>
+						list price: <strike>$8.00</strike><br>
+						our price: $6.00<br>
+						you save: $2.00<br>
+						<p>Product Description:<br>
+						Cleans wounds and soothes souls.</p>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		<div class="rp">
+			<div id="bugouticon">
+				<img class="bugoutbag" src="UI/bugoutbag.png">
+				<div id="itemcounter">0</div>
+			</div>
+			<ul>
+				<li><a href="bag.html">BUGOUT BAG</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="help.html">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
