@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Food</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="content">
 		<div class="lp">
-			<h1 id="logo"><a href="index.html">Y2-O-K!</a></h1>
+			<h1 class="logo"><a href="index.html">Y2-O-K!</a></h1>
 			<form class="language">
 				<select id="language" name="language" onchange="location = this.options[this.selectedIndex].value;">
 					<option value="index.html">Select Language</option>
@@ -39,14 +39,12 @@
 				<h2 id="countdown"></h2>
 			</div>
 			<hr>
-			<iframe src="https://giphy.com/embed/oe33xf3B50fsc" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-			<!-- <p><a href="https://giphy.com/gifs/explosion-oe33xf3B50fsc">via GIPHY</a></p> -->
-			<!-- <table class="product-grid">
+			<table class="product-grid">
 				<tr>
 					<td style="width:20px;">1.</td>
 					<td style="width:210px;">
 						<img src="Products/booklet.png">
-						<button type="button">
+						<button type="button" onclick="increaseCounter()">
 							Add to Bugout Bag
 						</button>
 						<br>
@@ -69,7 +67,7 @@
 					<td style="width:20px;">2.</td>
 					<td style="width:210px;">
 						<img src="Products/santafe_powwow_tape.jpg">
-						<button type="button">
+						<button type="button" onclick="increaseCounter()">
 							Add to Bugout Bag
 						</button>
 						<br>
@@ -84,7 +82,7 @@
 						Santa Fe Powwow Memorial Day Weekend 1990. Artists: Bad Medicine (Artist), White Eagle (Artist), Blackfoot Crossing (Artist), Badland (Artist), Cathedral Lakes (Artist).  Format: Audio Cassette</p>
 					</td>
 				</tr>
-			</table> -->
+			</table>
 		</div>
 		<div class="rp">
 			<div id="bugouticon">
