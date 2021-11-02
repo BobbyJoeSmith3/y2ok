@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Food</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="content">
+		<div class="lp">
+			<h1 class="logo"><a href="index.html">Y2-O-K!</a></h1>
+			<form class="language">
+				<select id="language" name="language" onchange="location = this.options[this.selectedIndex].value;">
+					<option value="index.html">Select Language</option>
+					<option value="index.html">American</option>
+					<option value="kindex.html">한글</option>
+					<option value="lindex.html">Lakota</option>
+				</select>
+			</form>
+			<ul>
+				<li><a href="kindex.html">홈</a></li>
+				<li><a href="kfood.html">음식</a></li>
+				<li><a href="kmedical.html">의료</a></li>
+				<li><a href="kprotection.html">보호장물</a></li>
+				<li><a href="kclothing.html">옷</a></li>
+				<li><a href="kgear.html">도구</a></li>
+				<li><a href="kentertainment.html">예능</a></li>
+				<li><a href="kspiritual.html">종교</a></li>
+				<li><a href="kother.html">다른</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="header">
+				<h1>Y2-O-K 에 오신것을 환영합니다!</h1>
+				<h3>세상 멸망을 완벽히 준비하는 올인 홈쇼핑</h3>
+				<p>종말 카운트다운 :</p>
+				<h2 id="countdown"></h2>
+			</div>
+			<hr>
+
+		</div>
+		<div class="rp">
+			<div id="bugouticon">
+				<img class="bugoutbag" src="UI/bugoutbag.png">
+				<div id="itemcounter">0</div>
+			</div>
+			<ul>
+				<li><a href="bag.html">비사용 장바구니</a></li>
+				<li><a href="about.html">내용</a></li>
+				<li><a href="help.html">도움이</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
